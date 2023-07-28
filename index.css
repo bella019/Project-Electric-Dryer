@@ -107,8 +107,8 @@ nav ul li a:hover{
     font-weight: 600;
 }
 .welcome{
+    text-align: center;
     margin-top: 20px;
-    margin-left: 40px;
 }
 caption{
     font-weight: 600;
@@ -117,13 +117,21 @@ caption{
 }
 table{
     border-collapse: collapse;
-    margin-left: 150px;
-    margin-top: 100px;
+    margin: 100px auto 0 auto;
     width: 80%;
     height: 50vh;
+    overflow-x: scroll;
 }
 th{
     border: 1px solid #000;
+    min-width:200px;
+}
+.table-wrapper{
+    overflow-x: auto;
+}
+.content-wrapper{
+    display: flex;
+    flex-direction: column;
 }
 .new{
     text-align: center;
@@ -134,15 +142,20 @@ th{
 .new-2{
     text-align: center;
     padding: 12px 10px;
-    margin-top: 10px;
+    width:50%;
+    margin: 10px auto 0 auto;
     display: inline-block;
-    margin-left: 620px;
     background-color: red;
     text-transform: capitalize;
     border: 2px solid #ccc;
     border-radius: 6px;
     text-decoration: none;
     color: #fff;
+}
+.new-2 a{
+    color: #fff;
+    text-transform: capitalize;
+    text-decoration: none;
 }
 .new-2:hover{
     background-color: #000;
@@ -151,16 +164,19 @@ th{
 footer{
     background-color: #fff;
     width: 100%;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    height: max-content;
+    margin-top: 210px;
     display: flex;
+    flex-direction: column;
+    align-items:center
 }
 footer p{
-    margin-left: 600px;
+    /* margin-left: 600px; */
     margin-top: 15px;
+    text-align: center;
 }
 footer h4{
-    margin-left: 150px;
+    /* margin-left: 150px; */
     margin-top: 15px;
     font-weight: 700;
     text-transform: uppercase;
