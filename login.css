@@ -102,6 +102,24 @@ input[type=submit]:hover, select{
 .account a:hover{
     color: #000;
 }
+.new-2{
+    text-align: center;
+    padding: 12px 10px;
+    width:50%;
+    margin: 10px auto 0 auto;
+    display: inline-block;
+    background-color: red;
+    text-transform: capitalize;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+}
+.new-2 a{
+    color: #fff;
+    text-transform: capitalize;
+    text-decoration: none;
+}
 footer{
     background-color: #fff;
     width: 100%;

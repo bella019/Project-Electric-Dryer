@@ -167,6 +167,10 @@ input[type=submit]:hover, select{
     background-color: #000;
     color: #fff;
 }
+.content-wrapper{
+    display: flex;
+    flex-direction: column;
+}
 .new{
     text-align: center;
     margin-top: 65px;
@@ -214,19 +218,4 @@ footer h4{
     margin-top: 15px;
     font-weight: 700;
     text-transform: uppercase;
-}
-@media(max-width: 1024px){
-    form{
-        width: 50%
-    }
-}
-@media(max-width: 700px){
-    form{
-        width: 60%
-    }
-}
-@media(max-width: 500px){
-    form{
-        width: 80%
-    }
 }
