@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="new.css">
+    <title>Electric Dryer Logging</title>
+</head>
+<body>
+    <div class="hero">
+        <header>
+            <nav>
+              <h4 class="logo">Electric <span style="color: red;">Dryer</span></h4> 
+              <ul>
+                <li><a href="index.html">Previous Process</a></li>
+              </ul>
+              <div class="user-pic" onclick="toggleMenu()">JD</div>
+              <div class="sub-menu-wrap" id="subMenu">
+                <div class="sub-menu">
+                    <div class="user-info">
+                        <h3>John Doe</h3>
+                    </div>
+                    <hr>
+                    <a href="login.html" class="sub-menu-link">
+                        <p>Log Out</p>
+                    <span>></span>
+                    </a>
+                </div>
+                </div>
+                </nav>
+                <div>
+                    <h2 class="new-log">Want to start a <span style="color: red;"> new</span> process?</h2>
+                    <p class="new-log-p">Fill the form below to set your values</p>
+                    <form>
+                        <input type="text" id="produce" name="produce" placeholder="Type the Produce Type">
+                        <br>
+                        <input type="text" id="temp" name="temp" placeholder="Set Desired Temperature">
+                        <br>
+                        <input type="text" id="weight" name="weight" placeholder="Set Desired Weight">
+                        <br>
+                        <input type="submit" value="submit">
+                    </form>
+                    <h2 class="new">Want to see your previous <span style="color: red;">drying</span> Logs?</h2>
+                    <a href="index.html" class="new-2">previous drying logs</a>
+          
+                </div>
+                <footer>
+                    <h4>Electric <span style="color: red;">Dryer</span></h4>
+                   <p> Copyright &copy  2023 Department of Computer Engineering</p>
+                </footer>
+            </div>
+            <script>
+                let subMenu = document.getElementById("subMenu");
+            
+                function toggleMenu(){
+                    subMenu.classList.toggle("open-menu");
+                }
+            </script>
+        </body>
+        </html>
