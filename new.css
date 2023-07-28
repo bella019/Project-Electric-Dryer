@@ -180,7 +180,7 @@ input[type=submit]:hover, select{
 .new-2{
     text-align: center;
     padding: 12px 10px;
-    width:50%;
+    width: 100%;
     margin: 10px auto 0 auto;
     display: inline-block;
     background-color: red;
