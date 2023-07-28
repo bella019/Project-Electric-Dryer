@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Electric Dryer Logging</title>
+</head>
+<body>
+<div class="hero">
+    <header>
+        <nav>
+          <h4 class="logo">Electric <span style="color: red;">Dryer</span></h4> 
+          <ul>
+               <li><a href="new.html">New Process</a></li>
+          </ul>
+          <div class="user-pic" onclick="toggleMenu()">JD</div>
+          <div class="sub-menu-wrap" id="subMenu">
+            <div class="sub-menu">
+                <div class="user-info">
+                    <h3>John Doe</h3>
+                </div>
+                <hr>
+                <a href="login.html" class="sub-menu-link">
+                    <p>Log Out</p>
+                <span>></span>
+                </a>
+            </div>
+        </div>
+        </nav> 
+    </header>
+    <h1 class="welcome">Welcome Back User!</h1>
+    <div class="content-wrapper">
+        <div class="table-wrapper">
+        <table>
+            <caption>Logged Parameters</caption>
+            <tr>
+                <th>Date</th>
+                <th>Food Produce</th>
+                <th>Set Temperature</th>
+                <th>Sensed Temperature</th>
+                <th>Set Weight</th>
+                <th>Sensed Weight</th>
+                <th>Relative Hummidity</th>
+                <th>Airflow Rate</th>
+            </tr>
+            <tr>
+                <th>25/07/2023</th>
+                <th>Corn</th>
+                <th>30<sup>o</sup>C</th>
+                <th>30<sup>o</sup>C</th>
+                <th>50g</th>
+                <th>48.9g</th>
+                <th>10%</th>
+                <th>0.9CFM</th>
+            </tr>
+            <tr>
+                <th>24/07/2023</th>
+                <th>Vegetables</th>
+                <th>30<sup>o</sup>C</th>
+                 <th>30<sup>o</sup>C</th>
+                <th>50g</th>
+                <th>50g</th>
+                <th>8%</th>
+                <th>0.9CFM</th>
+            </tr>
+            <tr>
+                <th>20/07/2023</th>
+                <th>Millet</th>
+                <th>30<sup>o</sup>C</th>
+                 <th>30<sup>o</sup>C</th>
+                <th>60g</th>
+                <th>59g</th>
+                <th>9%</th>
+                <th>0.9CFM</th>
+            </tr>
+            </table>
+            </div>
+            <h2 class="new">Want to start a new <span style="color: red;">drying</span> process?</h2>
+            <button  class="new-2"><a href="new.html">new drying process</a></button>
+
+            </div>
+
+    <footer>
+        <h4>Electric <span style="color: red;">Dryer</span></h4>
+       <p> Copyright &copy  2023 Department of Computer Engineering</p>
+    </footer>
+</div>
+<script>
+    let subMenu = document.getElementById("subMenu");
+
+    function toggleMenu(){
+        subMenu.classList.toggle("open-menu");
+    }
+</script>
+</body>
+</html>
